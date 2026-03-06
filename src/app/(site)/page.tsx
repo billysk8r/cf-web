@@ -20,7 +20,7 @@ export default function Home() {
 					</p>
 					<div className="w-24 h-px bg-secondary mx-auto mb-8"></div>
 					<p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-						Led by conductor Daniel Henriks, bringing together professional and highly experienced singers for performances of unusual immediacy and clarity.
+						Led by conductor Daniel Henriks, bringing together professional singers for performances where the relationship between text, voice, and instrument unfolds with unusual immediacy.
 					</p>
 				</div>
 			</section>
