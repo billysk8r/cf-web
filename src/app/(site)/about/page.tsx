@@ -31,7 +31,7 @@ export default function About() {
             <section className="py-24 bg-gray-50 border-y border-gray-100">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row items-center gap-16">
-                        <div className="flex-1">
+                        <div className="flex-1 w-full max-w-md">
                             <div className="aspect-square bg-gray-200 rounded-sm overflow-hidden shadow-xl grayscale hover:grayscale-0 transition-all duration-700">
                                 {/* Placeholder for Daniel Henriks portrait */}
                                 <div className="w-full h-full bg-[url('https://wsto-6a25.kxcdn.com/content-images/size1080/image720/254be6cd068fbed34b5310942688af21/3548/henriks.jpg')] bg-cover bg-center"></div>
