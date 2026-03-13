@@ -32,7 +32,7 @@ export default function About() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row items-center gap-16">
                         <div className="flex-1 w-full max-w-md">
-                            <div className="aspect-square bg-gray-200 rounded-sm overflow-hidden shadow-xl grayscale hover:grayscale-0 transition-all duration-700">
+                            <div className="aspect-square bg-gray-200 rounded-sm overflow-hidden shadow-xl transition-all duration-700">
                                 {/* Placeholder for Daniel Henriks portrait */}
                                 <div className="w-full h-full bg-[url('https://imgc.ssmedia.com/imgc193_48428/q:95/icantori/webart/customtext/10a.jpg')] bg-cover bg-center"></div>
                             </div>
