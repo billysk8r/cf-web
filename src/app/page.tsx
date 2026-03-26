@@ -72,7 +72,7 @@ export default function Home() {
 						<div className="flex-1 w-full relative">
 							<div className="aspect-[4/5] bg-gray-100 rounded-sm overflow-hidden shadow-2xl relative z-10">
 								{/* Bach photo */}
-								<div className="w-full h-full bg-[url('https://cdn.pixabay.com/photo/2020/01/03/12/05/leipzig-4737955_1280.jpg')] bg-cover bg-center"></div>
+								<div className="w-full h-full bg-[url('/StJohnPoster.png')] bg-cover bg-center"></div>
 							</div>
 							<div className="absolute -bottom-8 -left-8 w-1/2 h-1/2 border-2 border-secondary/20 -z-0"></div>
 						</div>
