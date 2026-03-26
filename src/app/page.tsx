@@ -32,7 +32,7 @@ export default function Home() {
 					<div className="flex flex-col md:flex-row items-center gap-16">
 						<div className="flex-1 animate-slide-up">
 							<span className="text-secondary font-sans font-bold uppercase tracking-[0.3em] text-sm mb-4 block">
-								Featured Project
+								Upcoming Concerts
 							</span>
 							<h2 className="text-4xl md:text-5xl font-serif mb-6 leading-tight">
 								Johann Sebastian Bach <br />
@@ -66,7 +66,7 @@ export default function Home() {
 								href="/events"
 								className="inline-block bg-primary text-surface px-8 py-4 rounded-sm font-sans tracking-widest uppercase text-sm hover:bg-accent transition-all duration-300 shadow-lg"
 							>
-								Project Details
+								Concert Details
 							</Link>
 						</div>
 
