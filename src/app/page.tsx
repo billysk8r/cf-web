@@ -36,7 +36,7 @@ export default function Home() {
 							</span>
 							<h2 className="text-4xl md:text-5xl font-serif mb-6 leading-tight">
 								Johann Sebastian Bach <br />
-								<span className="italic">— St. John Passion</span> <br />
+								<span className="italic">St. John Passion</span> <br />
 								<span className="text-xl md:text-2xl font-sans text-secondary tracking-[0.2em] uppercase mt-2 block">BWV 245</span>
 							</h2>
 							<p className="text-lg text-gray-600 mb-8 leading-relaxed">
