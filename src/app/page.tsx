@@ -8,7 +8,7 @@ export default function Home() {
 				<div className="absolute inset-0 z-0 opacity-40">
 					<div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary"></div>
 					{/* Placeholder for hero image */}
-					<div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1663619079733-c22429418bc2?auto=format&fit=crop')] bg-cover bg-center"></div>
+					<div className="w-full h-full bg-[url('/C4Banner.jpg')] bg-cover bg-center"></div>
 				</div>
 
 				<div className="relative z-10 text-center px-4 max-w-5xl animate-fade-in">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Marcellus } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -13,6 +14,11 @@ const marcellus = Marcellus({
 	variable: "--font-marcellus",
 	weight: "400",
 	subsets: ["latin"],
+});
+
+const donau = localFont({
+	src: "../fonts/Donau.otf",
+	variable: "--font-donau",
 });
 
 export const metadata: Metadata = {
@@ -30,7 +36,7 @@ export default function RootLayout({
 			<head>
 				<link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
 			</head>
-			<body className={`${inter.variable} ${marcellus.variable} font-sans antialiased bg-surface min-h-screen flex flex-col`}>
+			<body className={`${inter.variable} ${marcellus.variable} ${donau.variable} font-sans antialiased bg-surface min-h-screen flex flex-col`}>
 				<Navbar />
 				<main className="flex-grow pt-20">
 					{children}

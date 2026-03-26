@@ -17,10 +17,10 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20 items-center">
                     <Link href="/" className="flex-shrink-0 flex flex-col group">
-                        <span className="font-serif text-xl tracking-wider text-primary leading-tight group-hover:text-secondary transition-colors duration-300">
+                        <span className="font-donau text-xl tracking-wider text-primary leading-tight group-hover:text-secondary transition-colors duration-300">
                             CENTRAL COAST
                         </span>
-                        <span className="font-serif text-sm tracking-[0.2em] text-secondary uppercase -mt-1">
+                        <span className="font-donau text-xl tracking-[0.1em] text-secondary uppercase -mt-1">
                             Chamber Choir
                         </span>
                     </Link>
